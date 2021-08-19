@@ -1,0 +1,241 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: middle;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #1C2C40;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 400;
+}
+input,textarea,select{
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+a{
+	color: #1C2C40;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+h3{
+	font-family: 'Circular-Std-Regular';
+	font-size: 70px;
+}
+p{
+	line-height:1.6em;
+	font-size: 18px;
+	font-family: "Circular-Std-Regular", Arial;
+	font-weight: 400;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	/* max-width:1100px; */
+}
+@font-face {
+	font-family: 'Circular-Std-Regular';
+	src:url('../fonts/CircularStd-Regular.woff2') format('woff2');
+	src:url('../fonts/CircularStd-Regular.woff') format('woff');
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Circular-Std-Bold';
+    src: url("../fonts/CircularStd-Bold.woff2") format("woff2");
+    src: url("../fonts/CircularStd-Bold.woff") format("woff");
+    font-style: normal
+}
+
+header{
+	padding: 30px 0;
+}
+header section.wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+header h1{
+	
+}
+header h1 a{
+	
+}
+header h1 a img{
+	
+}
+header nav{
+	width: 39%;
+}
+header nav ul{
+	display: flex;
+	justify-content: space-between;
+}
+header nav ul li{
+	
+}
+header ul li a{
+	color: #5f5f63;
+}
+header div.right{
+	width: 15%;
+}
+header div.right ul{
+	display: flex;
+	justify-content: space-between;
+}
+header div.right ul li{
+	
+}
+header div.right ul li a{
+	
+}
+header div.right ul li a.button{
+	color: #007bff;
+	border: 1px solid #a3a3a8;
+	padding: 12px 16px;
+	border-radius: 35px;
+}
+
+#spotlight{
+	padding: 80px 0;
+}
+#spotlight section.wrapper{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#spotlight div.left{
+	width: 50%;
+
+}
+#spotlight div.left h3{
+	font-weight: 1000;
+	/* line-height: 1.2em; */
+	letter-spacing: 3px;
+}
+#spotlight div.left p{
+	width: 68%;
+	margin: 30px 0;
+}
+#spotlight div.left a{
+	margin: 0 0 30px;
+	display: block;
+	font-size: 20px;
+}
+#spotlight div.left a.button{
+	display: inline-block;
+	color: #fff;
+	padding: 24px 40px;
+	border-radius: 35px;
+	background-color: #007bff;
+}
+#spotlight div.left div.span{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-content: center;
+}
+#spotlight div.left div.span span{
+	padding: 10px 0;
+}
+
+#spotlight div.right{
+	padding-bottom: 60px;
+	position: relative;
+	width: 40%;
+	right: -150px;
+	/* height: 160px; */
+	background-color: #e3e3e3;
+}
+#spotlight div.right div.bg{
+	width: 80%;
+	height: 600px;
+	/* background-color: grey; */
+	position: relative;
+}
+#spotlight div.right div.bg img{
+	display: block;
+	width: 100%;
+	/* position: absolute; */
+	/* top: -59px; */
+	/* left: -70px; */
+}
+#spotlight div.right div.bg img.girl{
+	width: 430px;
+	position: absolute;
+	top: -59px;
+	left: -70px;
+	z-index: 3;
+}
+#spotlight div.right div.bg img.mesh{
+	width: 200px;
+	position: absolute;
+	bottom: 16px;
+	right: 30px;
+}
+#spotlight div.right div.bg div.quote{
+	position: absolute;
+	bottom: 52px;
+	left: -170px;
+	width: 75%;
+	height: 175px;
+	padding: 25px;
+	background-color: #0A083A;
+	color: #fff;
+	z-index: 5;
+}
+#spotlight div.right div.bg div.quote img{
+	display: block;
+	width: 40px;
+	position: absolute;
+	top: 0px;
+	left: -22px;
+}
+#spotlight div.right div.bg div.quote img.quote{
+	
+}
+#spotlight div.right div.bg div.quote p{
+	font-size: 16px;
+	/* width: 90%; */
+}
+#spotlight div.right div.bg div.quote span{
+	padding-top: 13px;
+	display: block;
+}
+#spotlight div.right div.bg div.quote small{
+	color: #acacac;
+}
